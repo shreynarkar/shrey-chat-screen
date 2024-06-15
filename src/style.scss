@@ -15,14 +15,16 @@
 }
 
 .formContainer {
-  background-color: #a7bcff;
+  //background-color: rgb(66, 69, 68);
+  background-image: url("https://i.pinimg.com/736x/80/ff/69/80ff69f319daa945a850b4efe621c19a.jpg");
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
 
   .formWrapper {
-    background-color: white;
+    //background-color: rgb(152, 137, 137);
+    background-image: url("https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fnphrgz8yfnjylrwfr0yl.png");
     padding: 20px 60px;
     border-radius: 10px;
     display: flex;
@@ -88,7 +90,7 @@
 }
 
 .home {
-  background-color: #a7bcff;
+  background-image: url("https://royalvacationdmc.com/wp-content/uploads/2023/02/the-seanery-james-bond-island.jpg");
   height: 100vh;
   display: flex;
   align-items: center;
@@ -107,9 +109,9 @@
 
     .sidebar {
       flex: 1;
-      background-color: #3e3c61;
+      background-image: url("https://www.ejiltalk.org/wp-content/uploads/2023/08/krystian-tambur-k7rZ8wTfABA-unsplash-scaled.jpg");
       position: relative;
-
+overflow: scroll;
       .navbar {
         display: flex;
         align-items: center;
@@ -238,7 +240,7 @@
           .messageInfo {
             display: flex;
             flex-direction: column;
-            color: gray;
+            color: rgb(244, 22, 22);
             font-weight: 300;
 
             img {
